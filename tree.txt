@@ -1,0 +1,33 @@
+.
+├── add_commit_push.sh
+├── old
+│   ├── starter.sh
+│   ├── worker_0.py
+│   ├── worker_old.py
+│   ├── worker_old.sh
+│   └── worker.sh
+├── README.md
+├── scripts
+│   ├── docker_spd-project_8082.sh
+│   ├── sunpp_docs_npx_8086.sh
+│   ├── sunpp_docs_python_8083.sh
+│   ├── sunpp_npx_8086.sh
+│   └── sunpp_python_8083.sh
+├── starter.py
+├── tree.txt
+├── worker.py
+└── works
+    ├── claster_work_start.sh
+    ├── docker_simple_docs.sh
+    ├── start_comment_sunpp.sh
+    ├── start_ekatra_flask.sh
+    ├── start_for_ekatra_test.sh
+    ├── start_gbv_mongodb.sh
+    ├── start_install_sunpp_2_vm-docker.sh
+    ├── start_install_sunpp_2vm.sh
+    ├── start_multi_dockers.sh
+    ├── start_multi_vm_gen_db_view_repo.sh
+    ├── start_work_folder_site.sh
+    └── start_work_tree_node.sh
+
+3 directories, 27 files
