@@ -20,6 +20,10 @@ scripts = {
     "start_gbv_mongodb.sh":               "Запуск проекта с генератором, MongoDB и вьювером",
     "start_ekatra_flask.sh":              "Запуск проекта сайта ekatra_flask",
     "start_work_rabbitmq.sh":             "Запуск проекта rabbitmq",
+    "start_dbv_postgres.sh":              "Запуск проекта dbv_postgres",
+    "start_db_tlds_timescaledb.sh":       "Запуск проекта db_tlds_timescaledb",
+    "start_db_tlds_questdb.sh":           "Запуск проекта db_tlds_questdb",
+    "start_compose_go.sh":                "Запуск compose with go - start_compose_go",
 }
 
 def about():

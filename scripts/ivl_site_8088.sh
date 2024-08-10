@@ -10,7 +10,7 @@
 #--- который там запущен для входа из браузера localhost:8089
 #--- Браузер будет определен и запущен функцией open_browser() на хосте
 
-SERVER_PORT=8089
+SERVER_PORT=8088
 SERVER_URL="http://localhost:$SERVER_PORT"
 
 open_browser() {
@@ -26,7 +26,7 @@ open_browser() {
 }
 
 # подключение по SSH к удаленному серверу с пробросом портов
-ssh -L 8089:localhost:8089 starmark@gitlab.ivl.ua 
+ssh -L 8088:localhost:8089 starmark@gitlab.ivl.ua 
 
 sleep 5
 

@@ -7,7 +7,7 @@ import subprocess
 SCRIPTS_DIR = 'scripts'
 
 # Максимальное количество скриптов для вызова
-MAX_CHOISE=4
+MAX_CHOISE=5
 
 def about():
     print(
@@ -39,7 +39,7 @@ def get_user_choice(scripts):
 
     while True:
         try:
-            choice = int(input("\nВведите номер: 1-4: "))
+            choice = int(input("\nВведите номер: 1-5: "))
             if 1 <= choice <= MAX_CHOISE:
                 return choice
             else:
@@ -67,7 +67,8 @@ def main():
         #"sunpp_docs_python_8083.sh",
         "sunpp_npx_8086.sh",
         #"sunpp_docs_npx_8086.sh",
-        "ivl_site_8089.sh",
+        "ivl_site_8088.sh",
+        "ekatra_flask_8089.sh",
     ]
 
     check_scripts(scripts)
