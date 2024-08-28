@@ -1,8 +1,10 @@
 #!/bin/bash
 
 # Определение переменных
-PROJECT="ekatra_flask"
-WORKPLACE="home/leon/work/docker"
+#PROJECT="ekatra_flask"
+#WORKPLACE="home/leon/work/docker"
+PROJECT="poligon_ekatra_flask"
+WORKPLACE="/mnt/poligon"
 
 BASE_DIR="/$WORKPLACE"
 PROJECT_DIR="$BASE_DIR/$PROJECT"

@@ -24,6 +24,10 @@ scripts = {
     "start_db_tlds_timescaledb.sh":       "Запуск проекта db_tlds_timescaledb",
     "start_db_tlds_questdb.sh":           "Запуск проекта db_tlds_questdb",
     "start_compose_go.sh":                "Запуск compose with go - start_compose_go",
+    "start_ivldm.sh":                     "Запуск проекта IVLDM (сайт IVL document manager) на основе SQLite",
+    "start_quesrdb_test.sh":              "Запуск теста работы questdb вместе с app.py",
+    "start_app_to_postgres.sh":           "Запуск проекта работы postgresql в контейнере на уд. VM(Vital)",
+    "start_html_bootstrap_js.sh":         "Запуск проекта с сервером сайта на bootstrap",
 }
 
 def about():
