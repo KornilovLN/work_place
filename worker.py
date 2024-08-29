@@ -7,6 +7,7 @@ SCRIPTS_DIR = "works"
 
 # Словарь скриптов
 scripts = {
+    "work_place.sh":                      "Проект стартера рабочей площадки work_place",
     "start_work_tree_node.sh":            "Запуск рабочего дерева узлов",
     "start_work_folder_site.sh":          "Запуск рабочей папки сайта",
     "start_comment_sunpp.sh":             "Запуск комментариев SUNPP",
